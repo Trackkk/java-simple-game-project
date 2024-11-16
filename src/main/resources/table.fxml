@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0"
+           stylesheets="@table.css" xmlns="http://javafx.com/javafx/17.0.2-ea"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="javafx.TableController">
+   <children>
+      <TableView fx:id="tableView" focusTraversable="false">
+        <columns>
+          <TableColumn fx:id="userName" prefWidth="175.0" text="Name" />
+          <TableColumn fx:id="numberOfMoves" prefWidth="175.0" text="Steps" />
+          <TableColumn fx:id="duration" prefWidth="175.0" text="Duration (min:sec:mil)" />
+        </columns>
+        <columnResizePolicy>
+          <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+      </TableView>
+      <BorderPane prefHeight="50.0" prefWidth="800.0">
+         <bottom>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="700.0" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" focusTraversable="true"
+                        prefHeight="150.0" prefWidth="700.0" style="-fx-background-color: #f8f8f8;">
+                     <children>
+                       <Label contentDisplay="TOP" prefHeight="55.0" prefWidth="113.0" text="Your name:">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Label>
+                        <TextField fx:id="playerName" prefHeight="52.0" prefWidth="211.0"
+                                   promptText="User name">
+                           <font>
+                              <Font size="20.0" />
+                           </font></TextField>
+                        <HBox alignment="BOTTOM_RIGHT" prefHeight="150.0" prefWidth="102.0" />
+                          <Button fx:id="next" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"
+                                  onAction="#switchScene"
+                                  prefHeight="56.0" prefWidth="171.0" text="Start">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </bottom></BorderPane>
+   </children>
+</StackPane>
