@@ -6,6 +6,10 @@ Move the ball to the marked square labeled 'Goal' in the maze depicted in the pi
 The ball can only move in the four directions: 'up', 'right', 'down', and 'left'. 
 Once it starts moving in any direction, it keeps rolling until it hits a wall or the edge of the maze.
 
+# HOW TO START THE GAME
+- go into src/main/java/puzzle/game 
+- open and run Main.java
+
 ## KeyBinds:
 - UP -> Move up
 - RIGHT -> Move right

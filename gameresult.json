@@ -1,8 +1,4 @@
 [ {
-  "playerName" : "     p",
-  "numberOfMoves" : 18,
-  "duration" : 3.905403300
-}, {
   "playerName" : "david",
   "numberOfMoves" : 18,
   "duration" : 6.074312800
@@ -11,7 +7,7 @@
   "numberOfMoves" : 19,
   "duration" : 26.910161300
 }, {
-  "playerName" : "david",
+  "playerName" : "teszt",
   "numberOfMoves" : 20,
   "duration" : 64.978762500
 }, {
@@ -19,27 +15,7 @@
   "numberOfMoves" : 19,
   "duration" : 88.199434700
 }, {
-  "playerName" : "bbzg",
-  "numberOfMoves" : 6,
-  "duration" : 12.781156600
-}, {
-  "playerName" : "bbzg",
-  "numberOfMoves" : 12,
-  "duration" : 15.806344900
-}, {
-  "playerName" : "bbzg",
-  "numberOfMoves" : 8,
-  "duration" : 11.282650100
-}, {
-  "playerName" : "bbzg",
-  "numberOfMoves" : 8,
-  "duration" : 8.709387600
-}, {
-  "playerName" : "david2",
-  "numberOfMoves" : 20,
-  "duration" : 51.958131000
-}, {
-  "playerName" : "david2",
-  "numberOfMoves" : 19,
-  "duration" : 66.602694800
+  "playerName" : "asd",
+  "numberOfMoves" : 18,
+  "duration" : 2.824315300
 } ]
